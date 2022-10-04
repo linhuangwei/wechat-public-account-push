@@ -15,6 +15,37 @@ const USER_CONFIG = {
 
   PROVINCE: '福建',
   CITY: '福州',
+  SWITCH: {
+    /** 每日天气 */
+    weather: true,
+
+    /** 节假日 */
+    // 下一休息日综合提醒
+    holidaytts: true,
+
+    /** 每日N句 */
+    // 金山每日一句
+    CIBA: true,
+    // 每日一言
+    oneTalk: false,
+    // 土味情话(彩虹屁)
+    earthyLoveWords: true,
+    // 朋友圈文案
+    momentCopyrighting: false,
+    // 毒鸡汤
+    poisonChickenSoup: false,
+    // 古诗古文
+    poetry: false,
+
+    /** 星座运势 */
+    horoscope: true,
+
+    /** 生日消息和节日消息 */
+    birthdayMessage: true,
+
+    // 学生课表
+    courseSchedule: false,
+  },
 
   USERS: [
     {
