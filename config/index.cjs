@@ -8,41 +8,71 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx05c90b8b660cd199',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '4d40503663a1ad0b40354d868a704cd8',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '福建',
+  CITY: '福州',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '雅艺宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o16I-5u_CnrQFPyy1nLIGutiNeis',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: '1Olq6I5q4qzEsjRcO4AT0G0zHeVQ3JubFLOfznocu40',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '12-17',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '生日', name: '宝贝', year: '1998', date: '12-17',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '男友', year: '1997', date: '12-01',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相识纪念日', year: '2021', date: '12-09',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2021-12-24' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-09-09' },
+      ],
+    },
+    {
+      // 想要发送的人的名字
+      name: '雅艺宝贝',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'o16I-5sl4WpPgEcKgzJGwFPxDzUg',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '1Olq6I5q4qzEsjRcO4AT0G0zHeVQ3JubFLOfznocu40',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '12-17',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '生日', name: '宝贝', year: '1998', date: '12-17',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '男友', year: '1997', date: '12-01',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2021', date: '12-09',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2021-12-24' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
